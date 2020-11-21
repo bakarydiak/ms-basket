@@ -23,7 +23,7 @@ public class BasketRessource {
     private BasketService service;
 
     @PostMapping()
-    public ResponseEntity<Object> addProductBasket(@RequestBody Product prod, @RequestHeader(value = "token", required = false) String token, LoginForm loginForm) throws ParseException {
+    public ResponseEntity<Object> addProductBasket(@RequestBody Product prod, @RequestHeader(value = "token", required = false) String token) throws ParseException {
         WebClient.RequestHeadersSpec<?> requestSpec2 = WebClient
                 .create("http://localhost:8070/episen/api/v1/authenticate/validate")
                 .get()

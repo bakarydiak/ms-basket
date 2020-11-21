@@ -1,0 +1,12 @@
+com\episen\ms\Repository\BasketRepository.class
+com\episen\ms\Model\Product.class
+com\episen\ms\App.class
+com\episen\ms\Ressource\AuthenticateRessource.class
+com\episen\ms\Model\Item.class
+com\episen\ms\Service\BasketService.class
+com\episen\ms\Model\LoginForm.class
+com\episen\ms\Model\User.class
+com\episen\ms\Model\AuthenticateData.class
+com\episen\ms\Ressource\BasketRessource.class
+com\episen\ms\Model\Basket.class
+com\episen\ms\setting\InfraSettings.class
